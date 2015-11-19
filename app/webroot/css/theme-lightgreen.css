@@ -1,0 +1,206 @@
+/* Colors ---
+
+Teal: 			#41cdde;
+Light Green:; 	#79c8c3 / 121,200,195;
+Dark Green: 	#7e9da0;
+
+--- */
+
+
+/* Navigation CSS */
+
+#logo img {
+	width: 129px;
+	height: 86px;
+}
+#main-nav ul ul a:hover {
+	background: #79c8c3;
+}
+#main-nav a:hover,
+#main-nav .hover > a,
+#main-nav .current > a { 
+	border-bottom-color: #79c8c3;
+	border-top-color: #79c8c3;
+	color: #79c8c3;
+}
+.not-ie #main-nav .current:after {
+	background: #79c8c3;
+}
+
+
+/* Slider CSS */
+
+.ss-slider.fully-loaded .slide-button:hover,
+.ss-slider.fully-loaded .slide-button.active {
+	color: #79c8c3;
+}
+.image-gallery-slider-nav a:hover,
+.image-gallery-slider-nav a:active {
+	background-color: rgb(121,200,195);
+	background-color: rgba(121,200,195,1);
+}
+.ss-slider .pagination-container a {
+background: rgb(121,200,195) url(../img/slider-arrows-small.png) no-repeat 0 center;
+filter: alpha(opacity=60);
+background: rgba(121,200,195, 0.6) url(../img/slider-arrows-small.png) no-repeat 0 center;
+}
+.ss-slider .pagination-container a:hover, .ss-slider.show-content-onhover:hover .pagination-container a:hover {
+	background-color: rgba(121,200,195, 1);
+}
+.button, input[type="submit"], input[type="reset"], button {
+	background: #79c8c3;
+}
+.ss-slider .active-slide-bar {
+	background: #79c8c3;
+}
+.ss-slider.fully-loaded .slide-button.active h5 {
+	color: #79c8c3;
+}
+
+
+/* Carousel */
+
+.jcarousel-container {
+	margin: 45px -20px 0 0;
+}
+
+
+/* Footer CSS */
+
+.social-links li.twitter a {
+	background-image: url(../img/lightgreen/icon-twitter.png);
+}
+.social-links li.facebook a {
+	background-image: url(../img/lightgreen/icon-facebook.png);	
+}
+.social-links li.digg a {
+	background-image: url(../img/lightgreen/icon-digg.png);
+}
+.social-links li.vimeo a {
+	background-image: url(../img/lightgreen/icon-vimeo.png);
+}
+.social-links li.youtube a {
+	background-image: url(../img/lightgreen/icon-youtube.png);
+}
+.social-links li.skype a {
+	background-image: url(../img/lightgreen/icon-skype.png);
+}
+#footer a:hover, #footer-bottom a:hover {
+	color: #79c8c3;
+}
+
+
+/* Pagination CSS */
+
+.pagination a:hover {
+	color: #79c8c3;
+}
+
+
+/* Categories CSS */
+
+.categories a:hover {
+	color: #79c8c3;
+}
+
+
+/* Back to Top */
+
+#back-to-top:hover, .touch-device #back-to-top:active {
+	background-color: #79c8c3;
+}
+
+/* General CSS */
+
+::selection {
+	background: #79c8c3;
+}
+a {
+	color: #79c8c3;
+}
+a:hover, a > *:hover {
+	color: #79c8c3;
+}
+a:hover > .post-format {
+	background-color: #79c8c3;
+	color: #79c8c3;
+}
+.arrow li {
+	background: url(../img/lightgreen/list-arrow.png) no-repeat 5px 5px;
+}
+
+
+/* Chefs */
+
+.nychef-name {
+	font-weight: bold;
+	font-size: 18px;
+	display: block;
+	color: #474747;
+}
+.nychef-name + span {
+	font-size: 14px;
+	margin-bottom: 20px;
+	display: block;
+}
+
+
+/* Instructor Page */
+
+.area-list li:first-child{
+	margin-left: 0;
+}
+.area-list li{
+	margin-left: 20px;
+}
+.area-list {
+	height: 40px;
+}
+.instructor-list .image-cell > a {
+	text-transform: uppercase;
+	font-weight: bold;
+	width: 100%;
+	text-align: left;
+	display: inline-block;
+	margin-bottom: 12px;
+}
+.instructor-list .name-cell {
+	padding-left: 40px;
+}
+.instructor-list tr td {
+	border-bottom: 4px solid #efefef;
+	padding: 20px 0;
+}
+.instructor-list tr:first-child td {
+	padding-top: 0;
+}
+.instructor-list tr:last-child td {
+	border-bottom: none;
+}
+
+
+/* User View 1 */
+
+.chef-contact-wrapper .text input,
+.chef-contact-wrapper .textarea textarea {
+	width: 280px;
+	margin-bottom: 10px;
+}
+
+.chef-contact-wrapper > h3 {
+	margin-top: 40px;
+}
+
+.one-third {
+	float: left;
+	margin-right: 40px;
+}
+
+.two-third {
+	width: 600px;
+}
+
+
+
+
+

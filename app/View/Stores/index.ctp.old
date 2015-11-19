@@ -1,0 +1,37 @@
+
+
+<ul class="store-list">
+    <?php foreach ($data['Store'] as $store): ?>
+    <li>
+        <dl>
+            <dt class="image-cell">
+                <?php
+                if(isset($store['Item'][0]['Attachment'][0])) {
+                ?>
+                <a href="/stores/view/<?php echo $store['Store']['id']; ?>">
+                    <img class="item-thumb" src="/<?php echo $store['Item'][0]['Attachment'][0]['file_dir'].'/thumbnails_mini/'.$store['Item'][0]['Attachment'][0]['file_name'];?>">
+                </a>
+                <?php
+                } 
+                ?>
+            </dt>
+            <dt class="store-name-cell">
+                <a href="/stores/view/<?php echo $store['Store']['id']; ?>"><?php echo $store['Store']['name']; ?></a>
+            </dt>
+            <dt>
+                Location: Astoria
+            </dt>
+            <dt class="item-count-cell">
+                # Items: <?php echo $store['Store']['item_count'];?>
+            </dt>
+            <dt class="created-cell">
+                <?php echo $store['Store']['created'];?>
+            </dt>
+        </dl>
+    </li>
+    <?php endforeach; ?>
+</ul>
+
+<a class="button" href="/stores/add">+CREATE</a>
+
+<?php echo $this->element('paginator');?>

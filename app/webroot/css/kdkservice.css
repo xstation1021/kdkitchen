@@ -1,0 +1,471 @@
+#content_kd {
+	font-family: "NotoSans-Regular", sans-serif;
+}
+
+.bold {
+	font-family: "NotoSans-Bold";
+}
+
+.black {
+	font-family: "NotoSans-Black";
+}
+
+.thin {
+	font-family: "NotoSans-Thin", sans-serif;
+}
+
+.demiLight {
+	font-family: "NotoSans-DemiLight", sans-serif;
+}
+
+.light {
+	font-family: "NotoSans-Light";
+}
+
+.contact_btn {
+	margin: auto;
+	text-align: center;
+	width: 100%;
+}
+
+.service_title {
+	font-family: "NotoSans-DemiLight", sans-serif;
+	border: 1px solid black;
+	margin: auto;
+	max-width: 438px;
+	text-align: center;
+	padding: 12px 50px 12px 50px;
+	font-size: 18px;
+	letter-spacing: 0.1em;
+}
+
+#content_kd h1 {
+	font-size: 90px;
+	margin-bottom: 0px;
+	margin-top: 30px;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+
+#h2_title_1 {
+	width: 400px;
+	height: 80px;
+}
+
+#content_kd h2 {
+	font-size: 27px;
+	letter-spacing: 0.15em
+}
+
+#page_section1 h3 {
+	margin: auto;
+	width: 510px;
+	margin-top: 20px;
+}
+
+#page_section1 h5 {
+	font-family: "NotoSans-DemiLight", sans-serif;
+	text-align: center;
+	color: #ffbf00;
+	letter-spacing: 0.1em;
+	font-size: 16px;
+	margin: 0;
+}
+
+#content_kd h3 {
+	color: #5a5a5a;
+	font-size: 12px;
+	line-height: 2.25;
+	letter-spacing: -1px;
+	letter-spacing: 0.1em;
+	text-align:center;
+}
+
+#page_section1 {
+	height: 300px;
+}
+
+#ContactButton {
+	font-size: 18px;
+	padding: 7px 60px 7px 60px;
+}
+
+#plus_section1 {
+	background-image: url(../img/kdkplus/KDKplus.jpg);
+	background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#plus_section2 {
+	background-image: url(../img/kdkplus/kdkplus_certificationonly.jpg);
+	background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#plus_section3 {
+	background-image: url(../img/kdkplus/kdkplus_payment.jpg);
+	background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#plus_section4 {
+	background-image: url(../img/kdkplus/kdkplus_agreement.jpg);
+	background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.plus_content_title {
+	width: 100%;
+	height: 180px;
+	border: 1px solid white;
+}
+
+.plus_content_title a {
+	height: 100%;
+	widht: 100%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li a.section {
+	position: relative;
+	display: block;
+	width: 100%;
+	letter-spacing: 0.05em;
+	height:180px;
+}
+
+
+
+li p.banner_picture,li a.section:after {
+	width: 100%;
+	height: 180px;
+}
+
+li p.banner_picture {
+	float: left;
+	margin: 0;
+	text-align: center;
+	padding-top:80px;
+	line-height: 18px;
+}
+
+a.section {
+	color: black;
+	font-size: 36px;
+}
+@media (max-width: 992px) {
+a.section {
+    color: black;
+    font-size: 33px;
+}
+}
+@media (max-width: 768px) {
+a.section {
+    color: black;
+    font-size: 24px;
+}
+}
+@media (max-width: 532px) {
+a.section {
+    color: black;
+    font-size: 22px;
+}
+}
+
+@media (max-width: 480px) {
+a.section {
+    color: black;
+    font-size: 18px;
+}
+}
+
+
+
+a.section p {
+	font-decoration: none;
+	font-family: "NotoSans-Thin";
+}
+
+
+
+.arrow_wrapper {
+	left:50%;
+   	height: 180px;
+	bottom:0;
+}
+
+.clear {
+	clear: both;
+}
+
+
+#service_ul li {
+	border: 1px solid white;
+}
+
+.service_description {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding: 20px;
+}
+
+
+.service_description_title {
+	border: 1px solid #ffbf00;
+	padding: auto;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+	font-family: "NotoSans-DemiLight", sans-serif;
+	letter-spacing: 0.1em;
+	color: #ffbf00;
+	font-size:14px;
+	margin-top:5px;
+	margin-bottom:30px;
+	
+}
+
+.service_description_content {
+	padding-left:40px;
+}
+
+.service_description_content h4 {
+	letter-spacing: 0.025em;
+	font-size: 21px;
+	margin: 0;
+	margin-bottom: 30px;
+	padding: 0;
+	padding-top: 10px;
+	text-align:left;
+}
+
+.service_description_content .service_description_content_div_ul ul li:before {
+	font-size: 13px;
+	content: "■";
+}
+
+.service_description_content ul {
+	font-size: 13px;
+	font-family: "NotoSans-Light";
+	line-height: 1.54;
+}
+
+.service_sub_title_wrapper {
+	max-width: 300px;
+	border: 1px solid #f6aa00;
+	margin: auto;
+}
+
+.service_sub_title {
+	height: 60px;
+	max-width: 300px;
+	margin: auto;
+	text-align: center;
+	font-family: "NotoSans-Thin", sans-serif;
+	font-size: 27px;
+	background-color: #f6aa00;
+	padding: auto;
+}
+
+.service_sub_title span.price {
+	letter-spacing: 1.5em;
+	padding-left: 40px;
+}
+
+.service_sub_content {
+	font-family: "NotoSans-DemiLight", sans-serif;
+	text-align: center;
+	font-size: 18px;
+	letter-spacing: 0.1em;
+}
+
+.price_box_container {
+	text-align: center;
+	padding:10px;
+}
+
+.price_box {
+	border: 1px solid black;
+}
+
+.price_box_float{
+	
+}
+.price_box_one{
+	margin: 0 auto;
+	width:300px;
+}
+@media (max-width: 480px) {
+	.price_box_one {
+	    width:100%;;
+	}
+}
+
+
+.price_box_header {
+	font-family: "NotoSans-DemiLight", sans-serif;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	height: 112px;
+}
+
+.price_box_content {
+	text-align: center;
+	height:112px;
+}
+
+.price_box_container p {
+	margin: 0;
+}
+
+.price_box_month_wrapper {
+    text-align:center;
+    border: 1px solid white;
+    width: 100px;
+    font-size:14px;
+    margin-top:50px;
+    
+}
+
+.price_remarks{
+	padding-top:20px;
+	font-size:12px;
+	font-family: "NotoSans-Thin", sans-serif;
+	text-align:center;
+}
+.price_price{
+	font-family: "NotoSans-Thin", sans-serif;
+	font-size:36px;
+	letter-spacing:0.05em;
+	text-align:center;
+}
+
+.kdk_plus_bottom{
+	margin-top:50px;
+	margin-bottom:30px;
+	text-align:center;
+	font-family: "NotoSans-Light";
+}
+.service_description_content_div{
+	font-family: "NotoSans-Light";
+	font-size:13px;
+}
+.service_description_content_div p{
+	margin:0;
+}
+
+.kdk_plus_orange_text{
+	color:#f6aa00;
+	font-family: "NotoSans-DemiLight", sans-serif;
+	letter-spacing:0.1em;
+	text-align:center;
+	margin-bottom:5px;
+}
+
+#kdk_plus_payment_message_wrapper{
+	margin-top:30px;
+	margin-bottom:20px;
+}
+
+.service_description_content_div_ul2 li{
+	min-height:10px;
+}
+
+.attention_text{
+	text-align:center;
+	font-size:12px;
+	letter-spacing:0.1em;
+	font-family: "NotoSans-Light";
+}
+
+#bank_info_wrapper{
+	padding:10px;
+	margin:auto;
+	text-align:center;
+	
+	font-size:14px;
+	letter-spacing:0,025em;
+	border:1px solid black;
+}
+
+#kdkplus_service_agreement{
+	font-family: "NotoSans-Light";
+	font-size:13px;
+	letter-spacing:0.025em;
+	line-height:1.85;
+	padding:50px 14px 0 14px;
+}
+
+#training_title{
+	size:20px;
+}
+#training_section1{
+	width:auto;
+	align
+}
+.training_image{
+	width:470px;
+}
+.orange_text{
+    color:#f6aa00;
+    font-family: "NotoSans-DemiLight", sans-serif;
+    letter-spacing:0.1em;
+    text-align:center;
+    margin-bottom:5px;
+}
+
+.pic_text{
+	text-align:center;
+	color:white;
+	position:absolute;
+	width:100%;
+	z-index:100;
+	margin-top: 40%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .pic_text{
+       width:375px;
+       margin-top: 160px;
+    }
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.pic_text{
+	   width:485px;
+	   margin-top: 180px;
+	}
+}
+@media (min-width: 1200px) {
+	.pic_text{
+        width:580px;
+        margin-top: 240px;
+    }
+
+ }
+ .arrow_A {
+    z-index: 999;
+    height:47px;
+}
+@media (max-width: 572px) {
+	.arrow_A {
+	   margin-top:20px;
+	   height:31px;
+	   width:18px;
+	}
+}
+ .arrow_wrapper{
+      position: absolute;
+	  left: 50%;
+	  top: 120px;
+	  height:10px;
+ }

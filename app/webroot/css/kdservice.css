@@ -1,0 +1,72 @@
+h1#service_title{
+	font-family: "NotoSans-Light";
+	font-size:45px;
+	margin-bottom:70px;
+	text-align:center;
+}
+
+.services{
+	margin-bottom:70px;
+}
+
+.service_plan_box{
+	border:1px #c4c4cc solid;
+	margin-bottom:30px;
+	width:470px;
+	height:470px;
+	float:left;
+	text-align:center;
+}
+
+.service_blank{
+	width:26px;
+	float:left;
+	height:470px;
+}
+
+
+
+.service_title_section{
+	height:175px;
+}
+.service_plan_title{
+	margin: 10px 0px 0px 0px;
+	font-family: "NotoSans-Regular";
+	font-size:60px;
+}
+
+.service_plan_sub_title{
+	margin: 5px 0px 0px 0px;
+    font-family: "NotoSans-Thin";
+    font-size:24px;
+}
+
+.service_plan_sub_title_jap{
+	margin: 5px 0px 0px 0px;
+	color:#ffbf00;
+	font-family: "NotoSans-DemiLight";
+	font-size:16px;
+}
+
+.service_plan_description{
+	text-align:center;
+	font-size:13px;
+	letter-spacing : 0.05em;
+	line-height : 1.85;
+	height:80px;
+}
+
+.service_plan_image{
+	height:140px;
+}
+
+#reservation{
+	text-align:center;
+	font-family: "NotoSans-Light";
+	font-size:18px;
+}
+
+.arrow_btn{
+	text-align:center;
+}
+

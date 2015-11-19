@@ -1,0 +1,240 @@
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url('font-family/helvetica-neue-ultra-light.ttf')
+		format('truetype');
+}
+
+@font-face {
+	font-family: "Helvetica Neue Medium";
+	src: url('font-family/helvetica-neue-medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "Helvetica Neue Ultra Light";
+	src: url('font-family/helvetica-neue-ultra-light.ttf')
+		format('truetype');
+}
+
+@font-face {
+	font-family: "Helvetica Neue Black";
+	src: url('font-family/helvetica-neue-condensed-black.ttf')
+		format('truetype');
+}
+
+#top_section {
+	height: 670px;
+	width: 970px;
+}
+
+.font-normal {
+	font-family: "Helvetica Neue";
+}
+
+.font-medium {
+	font-family: "Helvetica Neue Medium";
+}
+
+.font-light {
+	font-family: "Helvetica Neue Ultra Light";
+}
+
+.font-black {
+	font-family: "Helvetica Neue Black";
+}
+
+.recipe_item {
+	width: 270px;
+	height: 320px;
+	float: left;
+	margin-left: 15px;
+	margin-right: 15px;
+	background-color: #ffffff;
+	border: 1px solid black;
+}
+
+.new_recipe_tag {
+	left: 206px;
+	top: -11.4px;
+	font-family: "Helvetica Neue Black";
+	text-align: center;
+	-ms-transform: rotate(45deg); /* IE 9 */
+	-webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+	transform: rotate(45deg);
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	background: linear-gradient(45deg, transparent 20px, transparent 20px),
+		linear-gradient(135deg, transparent 20px, transparent 20px),
+		linear-gradient(225deg, transparent 27px, #ffbf00 20px),
+		linear-gradient(135deg, transparent 27px, #ffbf00 20px);
+	background-position: bottom left, bottom right, top right, top left;
+	background-size: 51% 51%;
+	background-repeat: no-repeat;
+	color: white;
+	line-height: 50px;
+	font-size: 14px;
+}
+
+.recipe_image_holder {
+	height: 180px;
+	width: 270px;
+	position: relative;
+}
+
+.recipe_item_text {
+	width: 270px;
+	height: 140px;
+}
+
+.recipe_item_title {
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 7px;
+}
+
+.recipe_item_title_eng {
+	font-size: 11px;
+	height: 11px;
+	color: #ffbf00;
+	font-family: "Helvetica Neue Medium";
+}
+
+.recipe_item_summary_text {
+	padding-top: 7px;
+	font-size: 10px;
+	color: #666666;
+}
+
+.recipe_item_date {
+	float: left;
+	font-size: 9px;
+	color: gray;
+	padding-top: 20px;
+	padding-left: 13px;
+	font-family: "Helvetica Neue Medium";
+}
+
+.recipe_item_icon {
+	float: right;
+	margin-right: 6px;
+}
+
+#recipe_summary_date {
+	font-size: 60px;
+	color: #FFFFFF;
+	font-weight: 100;
+	height: 120px;
+	line-height: 120px;
+	padding-left: 50px;
+}
+
+#recipe_list {
+	padding-left: 35px;
+	height: 320px;
+	margin-bottom: 25px;
+}
+
+#recipe_summary_summary {
+	float: left;
+	width: 370px;
+	font-size: 12px;
+	line-height: 1.8;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+#recipe_summary_content {
+	height: 180px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#recipe_display {
+	width: 100%;
+	padding-top: 30px;
+	padding-left: 50px;
+}
+
+#recipe_display_image {
+	float: left;
+	margin-left: 45px;
+	padding-top: 13px;
+}
+
+#recipe_display_select {
+	line-height: 50px;
+	float: right;
+	font-size: 16px;
+	margin-right: 80px;
+	border: 2px solid;
+	height: 50px;
+	width: 210px;
+	color: #ffbf00;
+	text-align: center;
+}
+
+#recipe_display_sel_font {
+	width: 210px;
+	padding-top: 15px;
+	height: 50px;
+	text-align: center;
+	color: #ffbf00;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#recipe_summary_chef {
+	width: 225px;
+	text-align: center;
+	float: left;
+	margin: auto;
+	line-height: 180px;
+	font-size: 32px;
+}
+
+.purchase_btn {
+	line-height: 24px;
+	height: 26px;
+	width: 126px;
+	color: #ffbf00;
+	float: right;
+	border: 2px #ffbf00 solid;
+	font-size: 14px;
+	text-align: center;
+	margin-right: 13px;
+	margin-bottom: 9px;
+	background-color: white;
+}
+
+.category-list {
+	padding: 0;
+	font-size: 0;
+}
+
+.category-list a {
+	color: #666666;
+	font-size: 12px;
+	font-weight: 400;
+	background-color: white;
+	display: block;
+	padding: 12px 20px 12px 20px;
+	border: 1px solid #eee;
+	margin-left: -1px;
+	text-transform: uppercase;
+}
+
+.category-list a:hover,.category-list a:focus,.category-list a.active {
+	background-color: #ffbf00;
+	color: white;
+}
+
+.category-list li {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}

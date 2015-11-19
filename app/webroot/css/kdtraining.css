@@ -1,0 +1,290 @@
+    .kdtraining_header_1{
+        font-size:60px;
+        text-align:center;
+        margin-bottom:50px;
+    }
+
+
+    #kdtraining_session{
+        height:600px;
+        width:960px;
+        background:transparent  url(../img/pic_session.jpg) no-repeat;
+        position: relative;
+    }
+    
+        #kdtraining_program{
+        height:550px;
+        width:960px;
+        background:transparent  url(../img/pic_program.jpg) no-repeat;
+        position: relative;
+        margin-top:25px;
+    }
+    
+        #kdtraining_support{
+        height:680px;
+        width:960px;
+        margin-top:25px;
+        margin-bottom:25px;
+        background:transparent  url(../img/pic_support.jpg) no-repeat;
+        position: relative;
+    }
+    .kdtraining_text_section{
+        position: relative;
+        top:20px;
+        width:445px;
+        opacity:0.9;
+        height:540px;
+        opacity:0.8;
+    }
+    
+    .kdtraining_text_section_left{
+        left:20px;
+    }
+    
+        .kdtraining_text_section_right{
+        left:500px;
+        height:515px;
+    }
+    
+    .kdtraining_contents{
+    }
+    
+    /* Session ID */    
+    #kdtraining_session_section1{
+        background-color:white;
+        height:85px;
+        padding-top:25px;
+    }
+    
+    #kdtraining_session_section2{
+        height:123px;
+        padding-top:20px;
+    }
+    
+    #kdtraining_session_section3{
+        height:98px;
+        padding-top:20px;
+        line-height:20px;
+    }
+    
+    
+    /* Program ID */
+    
+    #kdtraining_program_section1{
+        background-color:white;
+        height:100px;
+        padding-top:25px;
+    }
+    
+    #kdtraining_program_section2{
+        background-color:white;
+        height:100px;
+    }
+    
+    #kdtraining_program_section3{
+        height:118px;
+        line-height:20px;
+    }
+    
+    /* Support ID */
+    
+    #kdtraining_support_section1{
+       height:225px;
+       background-color:white;
+    }
+    
+    #kdtraining_support_section2{
+        background-color:white;
+        height:50px;
+        padding-top:20px;
+    }
+    
+    #kdtraining_support_section3{
+        background-color:white;
+        padding:0;
+        height:140px;
+        padding-top:12px;
+    }
+    
+    #kdtraining_support_section4{
+        height:248px;
+    }
+    
+    #kdtraining_support_section5{
+        margin-top:-10px; 
+        margin-left:-2px;
+        line-height:14px;
+    }
+    
+    #kdtraining_custom_orangebox1{
+        height:60px;
+    }
+    
+    #kdtraining_custom_orangebox2{
+        height:20px;
+    }
+    
+    
+
+    .kdtraining_title{
+        height:100px;
+        line-height: 100px;
+        font-weight: bold;
+        text-align:center;
+        font-size:72px;
+        background:
+        linear-gradient(45deg,  white 10px, white 10px),
+        linear-gradient(135deg, white 10px, white 10px),
+        linear-gradient(225deg, white 10px, white 10px),
+        linear-gradient(135deg, transparent 20px, white 10px);
+          background-position: bottom left, bottom right, top right, top left;
+	      background-size:  51% 51%;
+	      background-repeat: no-repeat;
+	      color:black; 
+	      font-weight:700;
+    }
+    
+    .kdtraining_content{
+        background-color:white;
+        padding:20px 35px 20px 35px;
+    }
+    
+    .kdtraining_content_densed{
+        line-height:18px;
+    }
+    
+    .kdtraining_section_space{
+        padding-top:5px;
+    }
+    
+    .kdtraining_content_title{
+        height:24px;
+        color:white;
+        background-color:silver;
+        opacity:1;
+        line-height:24px;
+        padding-left:35px;
+        font-weight: bold;
+        font-size:15px;
+    }
+       
+    .kdtraining_orangebox{
+        border-style: solid;
+        border-color: #ffbf00;
+        color:#ffbf00;
+        position:relative;
+	    width:375px;
+        left:25px;
+        padding-left:20px;
+        padding-top:10px;
+        padding-bottom:10px;
+        font-weight: bold;
+        font-size:1４px;
+        line-height:21px;
+    }
+    
+    .kdtraining_box{
+        border:0px;
+        position:relative;
+        width:375px;
+        left:25px;
+        padding-left:0px;
+        padding-top:0px;
+        font-size:12px;
+        line-height: 20px;
+    }
+     
+    ul.support {
+	    list-style:none;
+	    margin:0px; 
+	    padding-left:0px;
+	    font-size:11px;
+        color:#969696;
+     }
+     ul.support li{
+          padding-left:10px;
+	     min-height:10px;
+	     line-height:8px;
+	     margin:10px 0px 10px 0px;
+     }
+     
+     ul.support li.symbol {
+          background:url('/img/symbol.png') no-repeat 0 0;
+     }
+     
+     ul.support li.bullet {
+          background:url('/img/bullet.png') no-repeat 0 0;
+     }
+     
+    .kdtraining_border{
+        height:3px;
+    }
+    
+    .kdtraining_font_large{
+        font-size:19px;
+        font-weight: bold;
+    }
+    
+    .kdtraining_font_medium{
+        font-size:16px;
+    }
+    
+    .kdtraining_font_small{
+        font-size:11px;
+        color:#969696;
+        line-height:13px;
+    }
+    
+    .kdtraining_bottom_items{
+	    width:400px; 
+	    margin:0 auto;
+	    text-align:center;
+    }
+    
+    .kdtraining_price_box{
+        border-color: #ffbf00;
+        border-style: solid;
+        font-size:21px;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    
+    .kdtraining_no_border_box{
+        border:0;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    .kdtraining_orange_font{
+        color:#ffbf00;
+        font-size:18px;
+        padding-top:10px;
+        padding-bottom:13px;
+        font-weight: bold;
+    }
+    
+    .kdtraining_orange_border{
+        border:3px #ffbf00 solid;
+    }
+    
+    .kdtraining_orange_background_title{
+        background-color:#ffbf00;
+        color:white;
+        font-size:18px;
+    }
+    
+    .kdtraining_silver_background{
+        line-height:25px;
+        width:340px;
+        height:25px;
+        margin:auto;
+        background-color:#f5f5f5;
+        font-size:12px;
+    }
+    
+    .kdtraining_white_background_orange_font{
+        color:#ffbf00;
+        height:40px;
+        line-height:40px;
+    }
+    
+    

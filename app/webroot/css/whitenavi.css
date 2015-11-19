@@ -1,0 +1,57 @@
+#header .navbar-default.navbar-collapsed-sm .navbar-nav > li > a span {
+    color: black;
+    text-shadow: none;
+}
+
+@media (min-width: 768px) {
+
+
+#header .navbar-default.navbar-collapsed-sm .navbar-nav > li > a:hover span, #header .navbar-default.navbar-collapsed-sm .navbar-nav > li > a:focus span {
+    border-bottom-color: #434955;
+    color: rgba(255, 255, 255, 0.85);
+}
+#header .navbar-default.navbar-collapsed-sm .navbar-nav > li.open > a, #header .navbar-default.navbar-collapsed-sm .navbar-nav > li.open > a:hover, #header .navbar-default.navbar-collapsed-sm .navbar-nav > li.open > a:focus, #header .navbar-default.navbar-collapsed-sm .navbar-nav > li.active > a, #header .navbar-default.navbar-collapsed-sm .navbar-nav > li.active > a:hover, #header .navbar-default.navbar-collapsed-sm .navbar-nav > li.active > a:focus {
+    background-color: transparent;
+    color: white;
+}
+#header .navbar-default.navbar-collapsed-sm .navbar-nav > li.open > a span, #header .navbar-default.navbar-collapsed-sm .navbar-nav > li.open > a:hover span, #header .navbar-default.navbar-collapsed-sm .navbar-nav > li.open > a:focus span, #header .navbar-default.navbar-collapsed-sm .navbar-nav > li.active > a span, #header .navbar-default.navbar-collapsed-sm .navbar-nav > li.active > a:hover span, #header .navbar-default.navbar-collapsed-sm .navbar-nav > li.active > a:focus span {
+    border-bottom-color: #434955;
+    color: white;
+}
+#header .navbar-default.navbar-collapsed-sm .navbar-nav > li.open > a span, #header .navbar-default.navbar-collapsed-sm .navbar-nav > li.open > a:hover span, #header .navbar-default.navbar-collapsed-sm .navbar-nav > li.open > a:focus span, #header .navbar-default.navbar-collapsed-sm .navbar-nav > li.active > a span, #header .navbar-default.navbar-collapsed-sm .navbar-nav > li.active > a:hover span, #header .navbar-default.navbar-collapsed-sm .navbar-nav > li.active > a:focus span {
+    border-bottom-color: #434955;
+    color: white;
+}
+
+}
+
+#header .navbar-default.navbar-collapsed-sm .navbar-toggle {
+    border-color: white;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 27px 0 0;
+}
+
+#header .navbar-default.navbar-collapsed-sm .navbar-toggle .icon-bar {
+    background-color: white;
+}
+#header .navbar-default.navbar-collapsed-sm .navbar-toggle:hover, #header .navbar-default.navbar-collapsed-sm .navbar-toggle:focus {
+    background-color: #ffbb00;
+    border-color: #ffbb00;
+}
+#header .navbar-default.navbar-collapsed-sm .navbar-nav > li > a span{
+    color:white;
+}
+#header {
+  background-color: transparent;
+}
+#header .navbar-default.navbar-collapsed-sm .navbar-nav > li > a span {
+    border-bottom: 3px solid transparent;
+    color: white;
+    display: table-cell;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    vertical-align: middle;
+}
+.message.success {
+    background-color: rgba(255, 255, 255, 0.75);
+}

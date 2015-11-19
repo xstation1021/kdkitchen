@@ -1,0 +1,113 @@
+<script>
+$(function() {
+    //$('.item-thumb-link').colorbox({rel:'item-thumb-link'});
+});
+
+$(document).ready(function() {
+    $(".item-thumb-link").fancybox();
+    $(".image-gallery").fancybox();
+    $(".item-buy-link").fancybox({type:'inline'});
+    /*
+    $('.item-buy-link').magnificPopup({
+        items: {
+            type: 'inline',
+            src: '#ItemBuyForm'
+        }
+    });
+
+    $('.item-thumb-link').magnificPopup({
+        type: 'image',
+        gallery: {
+            enabled: true, // set to true to enable gallery
+            preload: [0,2], // read about this option in next Lazy-loading section
+            navigateByImgClick: true,
+            arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>', // markup of an arrow button
+            tPrev: 'Previous (Left arrow key)', // title for left button
+            tNext: 'Next (Right arrow key)', // title for right button
+            tCounter: '<span class="mfp-counter">%curr% of %total%</span>' // markup of counter
+        }
+    });
+   */
+    var $container = $('.item-list-wrapper');
+
+    $container.imagesLoaded(function() {
+        $('.item-list-wrapper').isotope({
+            itemSelector : '.item-wrapper',
+                layoutMode : 'fitRows',
+        });
+    });
+});
+$(window).resize(function() {
+    $('.image-gallery').css('width', '100%');
+    $('.image-gallery').css('height', '100%');
+    $('.item-thumb').css('width', '100%');
+    
+    $('.item-minithumb-wrapper').css('width', '100%');
+    $('.item-minithumb-item-image').css('width', '100%');
+});
+</script>
+
+
+<h3><span class="store-name"><?php echo h($this->data['Store']['name']); ?></span></h3>
+<span class="store-description"><?php echo h($this->data['Store']['description']); ?></span>
+
+<?php
+echo $this->element('Items/list');
+?>
+
+
+<div class="item-list-wrapper clearfix">
+<?php foreach($this->data['Item'] as $item_index=>$item) { ?>
+    <?php $last = ''; ?>
+    <?php if($item_index%3 == 2 || count($this->data['Item'])-1 == $item_index) {$last='last';} ?>
+    <div class="item-wrapper one-third <?php echo $last;?>">
+        <label class="item-name"><?php echo h($item['name']); ?></label>
+        <?php if(isset($item['Attachment']) && !empty($item['Attachment'])) {?>
+        <div class="item-images-wrapper">
+            <div class="item-thumb-wrapper">
+            <?php if($attach = array_shift($item['Attachment'])) { ?>
+                <a class="image-gallery" rel="<?php echo $item_index; ?>" href="/<?php echo $attach['file_dir'].'/disp/'.$attach['file_name'];?>">
+                    <img class="item-thumb" src="/<?php echo $attach['file_dir'].'/thumbnails/'.$attach['file_name'];?>">    
+                </a>
+            <?php } ?>
+            </div>
+            <table class="item-minithumb-wrapper">
+            <tr>
+            <?php $count = 0 ?>
+            <?php while($attach = array_shift($item['Attachment'])) { ?>
+                <td class="item-minithumb-item-wrapper">
+                    <a class="image-gallery" rel="<?php echo $item_index; ?>" href="/<?php echo $attach['file_dir'].'/disp/'.$attach['file_name'];?>">
+                        <img class="item-minithumb-item-image" src="/<?php echo $attach['file_dir'].'/thumbnails_mini/'.$attach['file_name'];?>" alt="Smiley face">    
+                    </a>
+                </td>
+                <?php $count += 1 ?>
+            <?php } ?>
+            <?php if($count == 1){?><td>&nbsp;</td> <?php }?>
+            </tr>
+            </table>
+        </div>
+        <?php }?>
+        <div class="item-desc">
+        <div class="item-desc-price">$<?php echo h($item['price']); ?></div>
+            <div class="item-desc-desciption"><?php echo h($item['description']); ?>
+            tthis is a pen this is a penthis is a pen this is a penthis is a pen this is a penthis is a pen this is a penthis is a pen this is a penthis is a pen this is a penthis is a pen this is a penhis is a pen this is a pen
+            </div>
+            <?php if($item['is_active']) { ?>
+            <a class="button item-buy-link" href="#ItemBuyForm" onclick="$('#ItemBuyId').val('<?php echo $item['id']; ?>');">BUY</a>
+            <?php } else { ?>
+                SOLD
+            <?php } ?>
+        </div>
+    </div>
+<?php } ?>
+</div>
+<a href="/items/add/<?php echo $this->data['Store']['store_hash']; ?>">+ADD ITEM</a>
+
+<div id="ItemBuyForm" style="display:none;">
+<?php echo $this->Form->create('Item', array('method'=>'post', 'action'=>'buy')); ?>
+    <?php echo $this->Form->input('your email'); ?>
+    <?php echo $this->Form->hidden('store_hash', array('id'=>'StoreHash', 'value'=>$this->data['Store']['store_hash'])); ?>
+    <?php echo $this->Form->hidden('id', array('id'=>'ItemBuyId', 'value'=>False)); ?>
+    <?php echo $this->Form->hidden('is_active', array('value'=>0)); ?>
+<?php echo $this->Form->end('Buy'); ?>
+</div>
