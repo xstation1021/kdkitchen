@@ -95,7 +95,7 @@
                     </a>
        				<ul style="display: none;">
        				     <li><a href="/services">講座内容</a></li>
-                        <li><a href="/pages/kdtraining">インストラクター資格取得</a></li>
+                        <li><a href="/pages/kdtraining">KD KITCHENインストラクター</a></li>
                     </ul/>
     			</li>
      			<li>

@@ -7549,7 +7549,7 @@ body.boxed #scroll-to-top.fade.in:hover {
 		margin-right: -108px;
 		margin-top: 15px;
 		right: 50%;
-		width: 216px;
+		width: 250px;
 	}
 	#header .navbar-default.navbar-collapsed-sm .navbar-nav>li .dropdown-menu::before
 		{
@@ -7872,7 +7872,7 @@ body.boxed #scroll-to-top.fade.in:hover {
 		margin-right: -108px;
 		margin-top: 15px;
 		right: 50%;
-		width: 216px;
+		width: 250px;
 	}
 	#header .navbar-default.navbar-collapsed-md .navbar-nav>li .dropdown-menu::before
 		{
@@ -14105,6 +14105,17 @@ a.service-item{
 #workshops-content p{
     margin-top:20px;
     margin-bottom:20px;
+}
+
+#workshops_title {
+	font-family: "NotoSans-DemiLight", sans-serif;
+	border: 1px solid black;
+	margin: auto;
+	max-width: 438px;
+	text-align: center;
+	padding: 12px 50px 12px 50px;
+	font-size: 18px;
+	letter-spacing: 0.1em;
 }
 
 .fleft{

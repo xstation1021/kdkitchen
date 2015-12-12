@@ -95,19 +95,31 @@ class ServicesController extends AppController {
                 'detail_content_black' => '宿題はメールにて。食に関するVideo鑑賞、感想提出、クラス開催に向けての準備等。' 
         );
         
-        $contents ['mission_sub_title'] = "＜課題＞　KD KITCHENクラスを開催する";
+        $contents ['mission_sub_title'] = "＜テスト＞　インストラクターとしての知識が身についていることを確認";
         $contents ['mission_descriptions'] = array ();
-        $contents ['mission_sub_description'] = "実際に初めてのクラスを開催するのは勇気がいることです。K D
+        $contents ['mission_sub_description'] = "KD KITCHENのテストは、合格だけを目的とするものではありません。 資格取得講座や30日間のプログラム中に学ぶことは、将来インストラクターになった時に生徒さんに伝える大切なものです。　
+学んだことがしっかり身についているかをテストで確認します。";
+        $contents ['mission_sub_title_black'] = "＜合格ライン＞";
+        $contents ['mission_descriptions'] [] = array (
+                'image' => 'kdktraining/KDK_mission_spt.png',
+                'paragraphs' => array (
+                        '<span class="description_normal">90％以上の正解率で合格</span>' 
+                ) 
+        );
+        
+        $contents ['mission_sub_title2'] = "＜課題＞　KD KITCHENクラスを開催する";
+        $contents ['mission_descriptions2'] = array ();
+        $contents ['mission_sub_description2'] = "実際に初めてのクラスを開催するのは勇気がいることです。K D
 KITCHENはインストラクターとして輝いて欲しいという願いを込めた
 プロジェクトですので、皆さんが最初のクラスをスムーズに開催できる
 ようしっかりサポートをします。 <br>※KD KITCHEN インストラクターとして自分のクラスを開催することが
 目的ですので、初回はお友達や家族対象で構いません。";
-        $contents ['mission_sub_title_black'] = "＜サポート内容＞";
-        $contents ['mission_descriptions'] [] = array (
+        $contents ['mission_sub_title_black2'] = "＜サポート内容＞";
+        $contents ['mission_descriptions2'] [] = array (
                 'image' => 'kdktraining/KDK_mission_spt.png',
                 'paragraphs' => array (
-                        '<span class="description_normal">各種開設や設定におけるアドバイス',
-                        '<span class="description_normal">その他<span class="description_small">（テキストブック、レシピ、ディプロマなど）</span>' 
+                        '<span class="description_normal">各種開設や設定におけるアドバイス</span>',
+                        '<span class="description_normal">その他</span><span class="description_small">（テキストブック、レシピ、ディプロマなど）</span>' 
                 ) 
         );
         
@@ -121,7 +133,7 @@ KITCHENはインストラクターとして輝いて欲しいという願いを�
         $contents ['mission_details'] ['content'] [] = array (
                 'detail_content_orange' => 'その他含まれるもの',
                 'detail_content_black' => '■テキストブック ■レシピ×11 ■ディプロマ（資格取得証明書） ■毎月お届けするニュースレター ※Health Tip等をご紹介しています。
-■KD KITCHEN PLUS　※月会費￥3800(税別)、任意　※KD KITCHEN PLUSには各種イベントご招待や割引、毎月New Yorkから新しいレシピ×3、レシピビデオ×3をお届けする等、様々な特典をご用意しています。' 
+■KD KITCHEN PLUS　※月会費￥4,800(税別)、任意　※KD KITCHEN PLUSには各種イベントご招待や割引、毎月New Yorkから新しいレシピ×3、レシピビデオ×3をお届けする等、様々な特典をご用意しています。' 
         );
         
         return $contents;

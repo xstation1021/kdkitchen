@@ -48,5 +48,34 @@
 		
 			<?php }?>
 		</div> 
+		
+		<?php if (isset ( $contents [$section . '_sub_title2'] )) {?>
+		<div class="kdkservice_section_sub_title"><?php echo $contents[$section .'_sub_title2'];?></div>
+		<?php } ?>
+		<?php if (isset ( $contents [$section . '_sub_description2'] )) {?>
+			<div class="kdkservice_section_sub_description">
+				<?php echo $contents[$section .'_sub_description2'];?>
+			</div>
+		<?php } ?>
+		
+		<?php if (isset ( $contents [$section . '_sub_title_black2'] )) { ?>
+				<div class="kdkservice_section_sub_title_black">
+		            <?php echo $contents[$section .'_sub_title_black2'];?>
+				</div>
+		<?php } ?>
+		<?php if (isset ( $contents [$section . '_descriptions2'] )) { ?>
+			<?php foreach($contents[$section .'_descriptions2'] as $content){?>
+			    <div class="kdkservice_content_description row">
+				    <div class="orange_circle_pic col-xs-1">
+    			        <?php echo $this->Html->image ( 'kdservice/' . $content ['image'] ); ?>
+    			    </div>
+				<div class="kdkservice_description col-xs-10">
+    			    <?php foreach($content['paragraphs'] as $paragraph){?>
+        			    <p><?php echo $paragraph?></p>
+        		    <?php }?>
+    		    </div>
+			</div>
+			<?php }?>
+		<?php } ?>
 	</div>
 </div>

@@ -37,78 +37,6 @@ echo $this->Html->css ( 'kdpossibility' );
 			src="https://www.youtube.com/embed/<?php echo $content['youtube_kdk_intro'];?>?autoplay=0"
 			frameborder="0" /></iframe>
 			<?php endif;?>
-		<div style="margin-top: 50px;">
-			<h2>資格取得の流れ</h2>
-		</div>
-
-		<div id="shikaku">
-			&nbsp;
-			<div id="shikaku_nav">
-				<a href="#apply" class="nav nav_item_1">
-					<div class="shikeku_navi_item active">
-						<div class="vertical">01.申し込み</div>
-					</div>
-				</a> <a href="#session" class="nav nav_item_2">
-					<div class="shikeku_navi_item">
-						<div class="vertical">02.セッション</div>
-					</div>
-				</a> <a href="#program" class="nav nav_item_3">
-					<div class="shikeku_navi_item">
-						<div class="vertical">03.プログラム</div>
-					</div>
-				</a> <a href="#challenge" class="nav nav_item_4">
-					<div class="shikeku_navi_item">
-						<div class="vertical">04.課題</div>
-					</div>
-				</a> <a href="#certification" class="nav nav_item_5">
-					<div class="shikeku_navi_item">
-						<div class="vertical">05.資格取得</div>
-					</div>
-				</a> <a href="#dokuritsu" class="nav nav_item_6">
-					<div class="shikeku_navi_item">
-						<div class="vertical">06.独立</div>
-					</div>
-				</a>
-			</div>
-			<div class="triangles">
-				<div id="triangle_black_1"
-					class="triangle_black first active nav_item_1"></div>
-				<div id="triangle_black_2" class="triangle_black nav_item_2"></div>
-				<div id="triangle_black_3" class="triangle_black nav_item_3"></div>
-				<div id="triangle_black_4" class="triangle_black nav_item_4"></div>
-				<div id="triangle_black_5" class="triangle_black nav_item_5"></div>
-				<div id="triangle_black_6" class="triangle_black nav_item_6"></div>
-			</div>
-			<div style="clear: both;"></div>
-			<div id="shikaku_description">
-				<a href="#apply" class="nav nav_item_1">
-					<div class="shikeku_navi_item active">
-						<div class="vertical">申し込みは資格取得講座のページかメールにて</div>
-					</div>
-				</a> <a href="#session" class="nav nav_item_2">
-					<div class="shikeku_navi_item">
-						<div class="vertical">各プランに応じてコーチがセッションを行います</div>
-					</div>
-				</a> <a href="#program" class="nav nav_item_3">
-					<div class="shikeku_navi_item">
-						<div class="vertical">３０日間のライフスタイルチェンジプログラムを実践</div>
-					</div>
-				</a> <a href="#challenge" class="nav nav_item_4">
-					<div class="shikeku_navi_item">
-						<div class="vertical">資格取得前に初めてのクラス開催にチャレンジ</div>
-					</div>
-				</a> <a href="#certification" class="nav nav_item_5">
-					<div class="shikeku_navi_item">
-						<div class="vertical">資格承認証を授与これ以降はご自分のクラスを開催できます</div>
-					</div>
-				</a> <a href="#dokuritsu" class="nav nav_item_6">
-					<div class="shikeku_navi_item">
-						<div class="vertical">独立後も各種サービスをご用意しております</div>
-					</div>
-				</a>
-			</div>
-			<div style="clear: both;"></div>
-		</div>
 		<div style="clear: both; margin-top: 50px;"></div>
 		<h2>インストラクターの声</h2>
 
@@ -298,269 +226,89 @@ echo $this->Html->css ( 'kdpossibility' );
 			</div>
 
 		</div>
-		<div style="clear: both; height: 30px;"></div>
-		<h2>資格取得の流れ</h2>
-		<div id="certification_flow_1">
-			<div class="certification_flow_title_orange">
-				<div class="vertical">
-					資格取得講座に<br>含まれるもの
-				</div>
+				<div style="margin-top: 50px;">
+			<h2>資格取得の流れ</h2>
+		</div>
+
+		<div id="shikaku">
+			&nbsp;
+			<div id="shikaku_nav">
+				<a href="#apply" class="nav nav_item_1">
+					<div class="shikeku_navi_item active">
+						<div class="vertical">01.申し込み</div>
+					</div>
+				</a> <a href="#session" class="nav nav_item_2">
+					<div class="shikeku_navi_item">
+						<div class="vertical">02.セッション</div>
+					</div>
+				</a> <a href="#program" class="nav nav_item_3">
+					<div class="shikeku_navi_item">
+						<div class="vertical">03.プログラム</div>
+					</div>
+				</a> <a href="#challenge" class="nav nav_item_4">
+					<div class="shikeku_navi_item">
+						<div class="vertical">04.テストと課題</div>
+					</div>
+				</a> <a href="#certification" class="nav nav_item_5">
+					<div class="shikeku_navi_item">
+						<div class="vertical">05.資格取得</div>
+					</div>
+				</a> <a href="#dokuritsu" class="nav nav_item_6">
+					<div class="shikeku_navi_item">
+						<div class="vertical">06.独立</div>
+					</div>
+				</a>
 			</div>
-			<div class="certification_flow_content">
-				<div class="certification_flow_1_content_title">
-					<div class="vertical">資格承認証</div>
-				</div>
-				<div class="certification_flow_1_content_item">
-					<div class="vertical">KD KITCHEN インストラクターディプロマ</div>
-				</div>
-				<div style="clear: both; margin-bottom: 15px;"></div>
-				<div class="certification_flow_1_content_title">
-					<div class="vertical">資格取得講座</div>
-				</div>
-				<div class="certification_flow_1_content_item">
-					<div class="vertical" style="text-align: left;">Karada
-						Detoxの体の中からキレイになる為の食生活、ライフスタイル及び KD KITCHENの概念、クラス運営方法やテクニックの習得</div>
-				</div>
-				<div style="clear: both; margin-bottom: 15px;"></div>
-				<div class="certification_flow_1_content_title">
-					<div class="vertical">プログラム</div>
-				</div>
-				<div class="certification_flow_1_content_item">
-					<div class="vertical">Karada Detox 30 日間 Healthy is Sexy
-						ライフスタイルチェンジプログラム</div>
-				</div>
+			<div class="triangles">
+				<div id="triangle_black_1"
+					class="triangle_black first active nav_item_1"></div>
+				<div id="triangle_black_2" class="triangle_black nav_item_2"></div>
+				<div id="triangle_black_3" class="triangle_black nav_item_3"></div>
+				<div id="triangle_black_4" class="triangle_black nav_item_4"></div>
+				<div id="triangle_black_5" class="triangle_black nav_item_5"></div>
+				<div id="triangle_black_6" class="triangle_black nav_item_6"></div>
 			</div>
-
-			<div style="clear: both; margin-bottom: 15px;"></div>
-			<div id="certification_flow_2">
-				<a id="apply"></a>
-				<div class="certification_flow_title_normal_arrow">
-					<div class="vertical_25">申し込み</div>
-				</div>
-				<div class="certification_flow_content">
-					<table id="apply_table">
-						<tr>
-							<td><nobr>費用</nobr></td>
-							<td class="arrow"><nobr>▶</nobr></td>
-							<td>"セッション"の料金を参照</td>
-						</tr>
-						<tr>
-							<td><nobr>お申し込み先</nobr></td>
-							<td class="arrow"><nobr>▶</nobr></td>
-							<td><span class="orange_box">info@kdkitchen.com</span> もしくは、 <span
-								class="orange_box"><a href="/pages/kdtraining">インストラクター資格取得講座
-										予約・コンタクト</a></span></td>
-						</tr>
-						<tr>
-							<td></td>
-							<td></td>
-							<td>※お名前とお電話番号、お申し込みご希望の旨をお知らせ下さい。お申し込みを頂いてから 7 日以内にお支払い下さい。</td>
-						</tr>
-						<tr>
-							<td style="vertical-align: top;"><nobr>資格費用支払い</nobr></td>
-							<td class="arrow vertical_td" style="vertical-align: top;"><nobr>▶</nobr></td>
-							<td style="vertical-align: top; padding: 0 0 0 5px;">
-								<ul style="list-style-type: square;">
-									<li>ゆうちょ銀行 普通預金 店番 : 418 口座番号 : 0188458 口座名義 : クロダマリ</li>
-									<li>クレジットカード決済はお申し込み時に別途ご案内。</li>
-								</ul>
-							</td>
-						</tr>
-						<tr>
-							<td><nobr>応募条件</nobr></td>
-							<td class="arrow"><nobr>▶</nobr></td>
-							<td>パソコンがあり、メール送信等の基本操作ができる方。ワード、エクセルソフトがあれば尚可。</td>
-						</tr>
-					</table>
-				</div>
-				<div style="clear: both; margin-bottom: 15px;"></div>
-				<a id="session"></a>
-				<div class="certification_flow_title_normal_arrow">
-					<div class="vertical_25">セッション</div>
-				</div>
-				<div class="certification_flow_content">
-					<table id="sesscion_table">
-						<tr>
-							<th><nobr>セッション</nobr></th>
-							<th><nobr>KDK Instructor training</nobr></th>
-							<th><nobr>KDK Private Instructor training</nobr></th>
-							<th><nobr>KDK Skype Instructor training</nobr></th>
-						</tr>
-						<tr>
-							<td><nobr>レッスンの場所</nobr></td>
-							<td>日本<br>KDKが用意
-							</td>
-							<td>日本国内どこでも<br>生徒の希望地(<span style="color: #ffbf00;">※1&nbsp;</span>キッチン要)
-							</td>
-							<td>from New York<br>-
-							</td>
-						</tr>
-						<tr>
-							<td><nobr>料 金</nobr></td>
-							<td>¥285,000/人(税別)</td>
-							<td><nobr>¥3,500,000/セッション(税別)</nobr></td>
-							<td>¥285,000/人(税別)
-							</td>
-						</tr>
-						<tr>
-							<td><nobr>お支払い方法</nobr></td>
-							<td>銀行振込</td>
-							<td>銀行振込</td>
-							<td>銀行振込</td>
-						</tr>
-						<tr>
-							<td><nobr>催行人数</nobr></td>
-							<td>最低5人~</td>
-							<td>8人以内</td>
-							<td>最低1人から</td>
-						</tr>
-						<tr>
-							<td><nobr>コーチとのセッション時間</nobr></td>
-							<td><nobr>2days(20hrs)</nobr></td>
-							<td>2days(20hrs)</td>
-							<td>6weeks(12hrs)<br>日本時間 21:30〜、2hrs/セッション</td>
-						</tr>
-						<tr>
-							<td><nobr>KDプログラム</nobr></td>
-							<td>30日間</td>
-							<td>30日間</td>
-							<td>30日間（6週間のレッスン中に実践）</td>
-						</tr>
-						<?php 
-						/*
-						<tr>
-							<td><nobr>コーチマリ(KD+KDK講座)</nobr></td>
-							<td>○</td>
-							<td>○</td>
-							<td>○</td>
-						</tr>
-						<tr>
-							<td><nobr>シェフマイク(クッキング講座)</nobr></td>
-							<td>○</td>
-							<td>○</td>
-							<td>X</td>
-						</tr>
-						*/
-						?>
-						<tr>
-							<td><nobr>日 程</nobr></td>
-							<td><a href="/services/kdktraining">ページをご確認ください</a></td>
-							<td>ご希望の日程をお問い合わせ下さい。</td>
-							<td><a href="/services/kdkskype">ページをご確認ください</a>
-							</td>
-						</tr>
-						<tr>
-							<td><nobr>必要なもの</nobr></td>
-							<td colspan="3">パソコン<span style="color: #ffbf00;">※2&nbsp;</span>、KDKスターターキット</td>
-						</tr>
-						<tr>
-							<td><nobr>こんな方におすすめ</nobr></td>
-							<td
-								style="text-align: left; min-height: 10px; vertical-align: top;">各5人以上希望の方が集まった場合に、日本で 開催。KD ダイエットコーチ MARIがNY から来日して、開催いたします。</td>
-							<td
-								style="text-align: left; min-height: 10px; vertical-align: top;">東京で開催する時期を待たず、いつでも、どこでも（ご自宅にでも）、生徒さんのご希望の日時と場所に合わせてコーチMARIとシェフMIKEがNYから来日し、講座を開催致します。
-							</td>
-							<td
-								style="text-align: left; min-height: 10px; vertical-align: top;">数時間ずつ学べるのが特徴。 NY からスカイプでセッションいたします。</td>
-						</tr>
-					</table>
-					<div>
-						<span class="font-small"><span style="color: #ffbf00;">※1&nbsp;</span>キッチン相談要(クラスが開催できるよう、ジューサーやブレンダー等の機材も用意して頂く必要があります。</span>
+			<div style="clear: both;"></div>
+			<div id="shikaku_description">
+				<a href="#apply" class="nav nav_item_1">
+					<div class="shikeku_navi_item active">
+						<div class="vertical">申し込みは資格取得講座のページかメールにて</div>
 					</div>
-
-					<div style="margin-top: -10px;">
-						<span class="font-small"><span style="color: #ffbf00;">※2&nbsp;</span>カメラ、マイク内蔵パソコン</span>
+				</a> <a href="#session" class="nav nav_item_2">
+					<div class="shikeku_navi_item">
+						<div class="vertical">各プランに応じてコーチがセッションを行います</div>
 					</div>
-				</div>
-				<div style="clear: both; margin-bottom: 30px;"></div>
-				<a id="program"></a>
-				<div class="certification_flow_title_normal_arrow">
-					<div class="vertical_25">KDプログラム</div>
-				</div>
-				<div class="certification_flow_content">
-					<h5>Karada Detox 30日間 Healthy is Sexy ライフスタイルチェンジプログラム</h5>
-					<p>日々の生活の中で、各自 30 日間のプログラムを実践して頂きます。</p>
-					<p>KD が最も伝えたい New York 流のライフスタイルを実践に体験することで、</p>
-					<p>KD &amp; KD KITCHEN の効果、楽しさ、意味を、体とマインドでしっかり学んで頂けます。</p>
-
-					<div class="font-small"
-						style="border: 1px solid #ffbf00; color: #828282; padding: 10px; width: 557px;">
-						フードダイアリーレビュー ダイエットコーチによるレビュー。( 土日、祝日を除く )<br> 週1度の課題 /合計5回
-						宿題はメールにて。食に関する Video 鑑賞、感想提出、クラスの開催に向けての準備等
+				</a> <a href="#program" class="nav nav_item_3">
+					<div class="shikeku_navi_item">
+						<div class="vertical">３０日間のライフスタイルチェンジプログラムを実践</div>
 					</div>
-				</div>
-				<div style="clear: both; margin-bottom: 30px;"></div>
-				<a id="challenge"></a>
-				<div class="certification_flow_title_normal_arrow">
-					<div class="vertical_25">課題</div>
-				</div>
-				<div class="certification_flow_content">
-					<h5>インストラクターとして初めてのクラス開催にチャレンジ!</h5>
-					<p>実際に初めてのクラスを開催するのは勇気がいることです。</p>
-					<p>KD KITCHEN はインストラクターとして輝いて欲しいという願いを込めたプロジェクトですので、</p>
-					<p>皆さんが最初のクラスをスムーズに開催できるよう課題としてクラスを開催して頂きます。</p>
-					<p>※クラスの開催場所は自宅やお友達のお家等。初回はお友達や家族対象で構いません。また参加者人数に規定はありません。</p>
-				</div>
-				<div style="clear: both; margin-bottom: 30px;"></div>
-				<a id="certification"></a>
-				<div class="certification_flow_title_normal_arrow">
-					<div class="vertical_25">資格取得</div>
-				</div>
-				<div class="certification_flow_content">
-					<h5>資格取得!クラスを開設することができます。</h5>
-					<p>資格承認証(KD KITCHEN
-						インストラクターディプロマ)を授与します。これ以降いつでもご自身でクラスを開設することができます。</p>
-					<p>&nbsp;</p>
-					<p>その他含まれるもの:テキストブック</p>
-				</div>
-				<div style="clear: both; margin-bottom: 0px;"></div>
-				<a id="dokuritsu"></a>
-				<div class="certification_flow_title_normal">
-					<div class="vertical">独 立</div>
-				</div>
-				<div class="certification_flow_content">
-					<h5>独立後も続くサポート。</h5>
-					<p>独立後もサポートは続きます。</p>
-					<p>さらにステップアップしていただくため、任意でご加入頂けるKD KITCHEN PLUSサービスをご用意しております。</p>
-					<div class="font-small"
-						style="border: 1px solid #ffbf00; color: #828282; padding: 10px; width: 420px;">
-						<h6>各種開設や設定におけるアドバイス</h6>
-						<span style="padding-left: 10px;">
-							ブログ開設、スケジュール設定、クラスで使用するレシピ設定等のアドバイスを行います。 </span>
-						<h6>その他</h6>
-						<span style="padding-left: 10px;"> 毎月、Health TIp
-							等を紹介した「お届けニュースレター」などもご用意しております。 </span>
+				</a> <a href="#challenge" class="nav nav_item_4">
+					<div class="shikeku_navi_item">
+						<div class="vertical">学んだことを再確認する為の卒業テストと、資格取得前に初めてのクラス開催にチャレンジ</div>
 					</div>
-					<div style="height: 20px;"></div>
-					<div class="font-small"
-						style="border: 1px solid #ffbf00; color: #828282; padding: 10px; width: 470px;">
-						<h6
-							style="font-size: 16px; padding: 0; margin: 0px; letter-spacing: 3px;">KD
-							KITCHEN PLUSについて</h6>
-						<br> <span>各種イベントへのご招待や、毎月 New York から新しいレシピ x3、レシピビデオ x3
-							をお届けする等、 様々な特典をご用意している「KD KITCHEN PLUS」は、
-							月会費¥3,500(税別)でご利用いただけます。 </span>
+				</a> <a href="#certification" class="nav nav_item_5">
+					<div class="shikeku_navi_item">
+						<div class="vertical">資格承認証を授与これ以降はご自分のクラスを開催できます</div>
 					</div>
-				</div>
-				<div style="clear: both; margin-bottom: 30px;"></div>
-			</div>
-
-			<p></p>
-			<div style="float: left; width: 70px; font-size: 15px;">注意事項 :</div>
-			<div style="float: left; margin-left: 30px;" class="font-small">
-				<ul style="padding: 0; margin: 0; padding-left: 14px;">
-					<li>やむをえない事情でコーチングに参加できない場合でもクラスの振替えはできませんので、なるべく全てのクラスにご参加頂くようお願い致します。</li>
-					<li>「できる」「やってみる」が合い言葉です!これが言える人、この精神を持って取り組める人こそが成功するインストラクターです!(KDK
-						インストラクター達はみなさんそのような方です!)</li>
-					<li>クラス開始後のキャンセルにおいて、一切の返金は致しかねます。(クラス開始前のキャンセルは 100%返金。)</li>
-				</ul>
-				※返金の際の振込手数料はお申し込み者様のご負担となります。
+				</a> <a href="#dokuritsu" class="nav nav_item_6">
+					<div class="shikeku_navi_item">
+						<div class="vertical">独立後も各種サービスをご用意しております</div>
+					</div>
+				</a>
 			</div>
 			<div style="clear: both;"></div>
 		</div>
 	</div>
 </div>
 
+		<div class="clear"></div>
+		<?php
+			echo $this->element ( 'Service/contact' );
+			echo $this->element ( 'Service/contact_template' );
+		?>
+		<div class="kdkplus_link">
+		  資格取得講座の詳細は <?php echo $this->Html->link('こちら', '/services')?>
+		</div>
 
 <script>
 $( document ).ready(function() {

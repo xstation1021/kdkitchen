@@ -671,3 +671,34 @@ table td {
 	border: 2px solid #ffbf00;
 	text-align: center;
 }
+
+.contact_btn {
+	text-align: center;
+}
+
+.ContactButton {
+	font-size: 18px;
+	width: 260px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-family: "NotoSans-Regular", sans-serif;
+}
+
+.btn_kd {
+	background-color: #ffbf00;
+	font-family: "Lato", sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	color: white;
+	text-align: center;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	border: none;
+}
+
+.kdkplus_link{
+	text-align:center;
+	margin-top:50px;
+	font-size:18px;
+	font-family: "NotoSans-Light";
+}

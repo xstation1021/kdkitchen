@@ -70,7 +70,7 @@
 							</a>
 								<ul class='dropdown-menu' role='menu'>
 									<li class=''><a href='/services'>講座内容</a></li>
-									<li class=''><a href='/pages/kdtraining'>インストラクター資格取得講座</a></li>
+									<li class=''><a href='/pages/kdtraining'>KD KITCHENインストラクター</a></li>
 								</ul></li>
 							<li class='dropdown'><a class='dropdown-toggle' data-delay='50'
 								data-hover='dropdown' data-toggle='dropdown' href='#'> <span>
