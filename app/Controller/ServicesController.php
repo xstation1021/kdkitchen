@@ -116,7 +116,7 @@ KITCHENはインストラクターとして輝いて欲しいという願いを�
 目的ですので、初回はお友達や家族対象で構いません。";
         $contents ['mission_sub_title_black2'] = "＜サポート内容＞";
         $contents ['mission_descriptions2'] [] = array (
-                'image' => 'kdktraining/KDK_mission_spt.png',
+                'image' => 'kdktraining/KDK_mission_spt2.png',
                 'paragraphs' => array (
                         '<span class="description_normal">各種開設や設定におけるアドバイス</span>',
                         '<span class="description_normal">その他</span><span class="description_small">（テキストブック、レシピ、ディプロマなど）</span>' 

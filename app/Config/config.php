@@ -24,7 +24,8 @@ $config['url'] = 'http://www.kdkitchen.com/';
 
 /* Email Data */
 $config['contact_chef_subject'] = 'KD KITCHEN メッセージ';
-$config['kd_kitchen_certification_contact'] = 'KD KITCHEN ワークショップ問い合わせ';
+$config['kd_kitchen_certification_contact'] = 'KD KITCHEN 資格取得問合せ';
+$config['kd_kitchen_workshops_contact'] = 'KD KITCHEN ワークショップ問合わせ';
 $config['kd_kitchen_Payment'] = '商品が購入されました';
 $config['kd_kitchen_Payment_contact'] = 'レシピ購入の問い合わせ';
 
@@ -57,15 +58,23 @@ if($_SERVER['REMOTE_ADDR'] == '127.0.0.1'){
 $config['recipe_price'] = 3.50;
 $config['us_tax'] = 0.08875;
  if($_SERVER['REMOTE_ADDR'] == '127.0.0.1'){
-	$config['paypal_api_username'] = 'kdkitchen.api-facilitator_api1.gmail.com';
-    $config['paypal_api_password'] = '4FZQXECDAZKNH68G';
-    $config['paypal_api_signature'] = 'AFcWxV21C7fd0v3bYYYRCpSSRl31ALwiex5gAE6ys5LrevdeKICbIhni';
+//	$config['paypal_api_username'] = 'kdkitchen.api-facilitator_api1.gmail.com';
+//    $config['paypal_api_password'] = '4FZQXECDAZKNH68G';
+//    $config['paypal_api_signature'] = 'AFcWxV21C7fd0v3bYYYRCpSSRl31ALwiex5gAE6ys5LrevdeKICbIhni';
+//    $config['paypal_url'] = 'https://api-3t.sandbox.paypal.com/nvp';
+//    $config['paypal_returnUrl'] = 'https://local.kdkitchen.com/payments/review';
+//    $config['paypal_cancelUrl'] = 'http://local.kdkitchen.com/recipes/index';
+//    $config['paypal_url2'] = 'https://www.sandbox.paypal.com';
+
+    // nakamura local setting
+	$config['paypal_api_username'] = 'yasuk100+sell_api1.gmail.com';
+    $config['paypal_api_password'] = 'AXC7KJWSZUM8VTXS';
+    $config['paypal_api_signature'] = 'AFcWxV21C7fd0v3bYYYRCpSSRl31AAYPZzO9wQf.52r-dXwnDxH.eNic';
     $config['paypal_url'] = 'https://api-3t.sandbox.paypal.com/nvp';
     $config['paypal_returnUrl'] = 'https://local.kdkitchen.com/payments/review';
     $config['paypal_cancelUrl'] = 'http://local.kdkitchen.com/recipes/index';
     $config['paypal_url2'] = 'https://www.sandbox.paypal.com';
-    
- }else{
+ } else{
      $config['paypal_api_username'] = 'mari_api1.karadadetox.com';
      $config['paypal_api_password'] = '7V4PLRD4RWXURWMQ';
      $config['paypal_api_signature'] = 'AFcWxV21C7fd0v3bYYYRCpSSRl31AhQJmhx1NXc3UjGXMbn7J9a4Xoaw';

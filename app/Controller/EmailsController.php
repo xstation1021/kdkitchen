@@ -63,6 +63,40 @@ class EmailsController extends AppController {
         exit;
     }
     
+    function contact_workshops() {
+        if($this->request->is('POST') || $this->request->is('PUT')) {
+            $from = $this->data['Email']['from'];
+            $phone = $this->data['Email']['phone'];
+            $body = $this->data['Email']['body'];
+    
+            $name = $from;
+            if(isset($this->data['Email']['name'])) {
+                $name = $this->data['Email']['name'];
+            }
+    
+            $to = $this->data['Email']['chef_email'];
+    
+            $subject = Configure::read('kd_kitchen_workshops_contact');
+    
+            $context_vars = array(
+                    'name'=>$name,
+                    'email'=>$from,
+                    'phone'=>$phone,
+                    'body'=>$body
+            );
+    
+            if($this->Email->send($from, $to, $subject, $body, $name='', $template='contact_chef', $context_vars)) {
+                $this->Session->setFlash('メッセージが送信されました。', 'default', array('class'=>'message success'));
+            } else {
+                $this->Session->setFlash('エラーが発生しました。', 'default', array('class'=>'message error'));
+            }
+            $this->redirect($this->referer());
+            exit;
+        }
+        $this->redirect('/');
+        exit;
+    }
+    
     function contact_recipe() {
         if($this->request->is('POST') || $this->request->is('PUT')) {
             //$from = Configure::read('email');
